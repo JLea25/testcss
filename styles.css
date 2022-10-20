@@ -364,3 +364,8 @@ padding-top: 5px;
 .Accordion:focus {
   outline-color: pink !important;
 }
+
+.flipcardHeading
+{
+  color: white;
+}
