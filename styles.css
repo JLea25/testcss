@@ -323,7 +323,8 @@ padding-top: 5px;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
+.flip-card:hover .flip-card-inner, 
+.flip-card:focus .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -358,4 +359,8 @@ padding-top: 5px;
   margin: 1% auto;
   text-align: center;
   border: 2px solid;
+}
+
+.Accordion:focus {
+  outline-color: pink !important;
 }
